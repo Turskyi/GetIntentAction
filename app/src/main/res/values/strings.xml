@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GetIntentAction</string>
+    <string name="show_time">Show time</string>
+    <string name="show_date">Show date</string>
+    <string name="textView">TextView</string>
+    <string name="info_messages">%1$s %2$s </string>
+</resources>
