@@ -1,19 +1,18 @@
 package ua.turskyi.getintentaction
 
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : Activity(), View.OnClickListener {
+class MainActivity : AppCompatActivity(R.layout.activity_main), View.OnClickListener {
 
     /**
      * @Description Called when the activity is first created.
      * */
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
         btnTime.setOnClickListener(this)
         btnDate.setOnClickListener(this)

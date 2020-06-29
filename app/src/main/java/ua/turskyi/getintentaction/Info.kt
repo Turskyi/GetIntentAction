@@ -3,15 +3,15 @@ package ua.turskyi.getintentaction
 import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import java.sql.Date
 import java.text.SimpleDateFormat
 import java.util.*
 
-class Info : Activity() {
+class Info : AppCompatActivity(R.layout.info) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.info)
 
         // получаем Intent, который вызывал это Activity
         val intent = intent
